@@ -4,7 +4,7 @@ relative_permalinks: true
 
 # Setup
 title:            Koray Balcı
-tagline:          Will think of something funny and insightful when needed...
+tagline:          - developer blog?
 url:              http://koraybalci.github.io
 paginate:         1
 baseurl:          /
@@ -15,3 +15,10 @@ author:
 
 # Custom vars
 version:          1.0.0
+
+# Exclude these files from your production _site
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE.md
+    - README.md

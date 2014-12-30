@@ -24,12 +24,14 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
-
+  <div class="sidebar-item">
+    <a href="http://github.com/koraybalci">{% include svg-icons/github.html %}</a>
+    <a href="http://stackoverflow.com/users/68887/mentat">{% include svg-icons/stackoverflow.html %}</a>
+    <a href="http://linkedin.com/in/koraybalci">{% include svg-icons/linkedin.html %}</a>
+    <a href="http://twitter.com/koraybalci">{% include svg-icons/twitter.html %}</a>
+    <a href="{{ site.baseurl }}/feed.xml">{% include svg-icons/rss.html %}</a>
+  </div>
   <div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
