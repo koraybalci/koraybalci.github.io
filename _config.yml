@@ -4,7 +4,7 @@ relative_permalinks: true
 
 # Setup
 title:            Koray Balcı
-tagline:          - developer blog?
+tagline:          developer blog?
 url:              http://koraybalci.github.io
 paginate:         1
 baseurl:          /
