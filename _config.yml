@@ -1,0 +1,19 @@
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Koray Balcı
+tagline:          Will think of something funny and insightful when needed...
+url:              http://koraybalci.github.io
+paginate:         1
+baseurl:          /
+author:
+  name:           Koray Balcı
+  url:            https://twitter.com/koraybalci
+  email:          koraybalci@gmail.com
+
+# Custom vars
+version:          1.0.0
+github:           https://github.com/koraybalci
+  repo:           https://github.com/koraybalci/koraybalci.github.io
