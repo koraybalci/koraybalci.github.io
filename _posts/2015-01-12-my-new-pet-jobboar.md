@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducing my new pet project: JobBoar
+title: My new pet jobboar
 ---
 
 ![JobBoar](../assets/baby_boar_forest.jpg)
