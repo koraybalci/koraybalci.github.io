@@ -3,7 +3,7 @@ layout: post
 title: My new pet jobboar
 ---
 
-![JobBoar](../assets/baby_boar_forest.jpg)
+![JobBoar]({{ site.url }}/assets/baby_boar_forest.jpg)
 
 I believe every developer needs a pet project. Not a toy project by the way. Toys can be left aside when it is boring to play anymore, or when there is something shinier to toy with. Pets are different though. You cannot leave them for a long time. You need to love them, nurture them, play with them.
 
