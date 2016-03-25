@@ -11,6 +11,7 @@ author:
   name:           Koray Balcı
   url:            https://twitter.com/koraybalci
   email:          koraybalci@gmail.com
+gems: [jekyll-paginate]
 
 # Custom vars
 version:          1.0.0
