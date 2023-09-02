@@ -1,24 +1,59 @@
-# Permalinks
-permalink:        pretty
+# site settings
 
-# Setup
-title:            Koray Balcı
-tagline:          developer blog?
-url:              http://koraybalci.github.io
-paginate:         1
-baseurl:          /
+title: Koray Balci
+description: My personal web presence
+taglong: My personal web presence
+tagshort: home
+url: https://koraybalci.com
+baseurl: ""
+permalink: pretty
+repo: https://github.com/koraybalci/koraybalci.github.io
+
+# author settings
+
 author:
-  name:           Koray Balcı
-  url:            https://twitter.com/koraybalci
-  email:          koraybalci@gmail.com
-gems: [jekyll-paginate]
+  name: Koray Balci
+  email: mentat@gmail.com
+photo: /assets/png/koray.png
 
-# Custom vars
-version:          1.0.0
+# social media links
 
-# Exclude these files from your production _site
+social:  
+  github: koraybalci
+  linkedin: koraybalci
+  stackoverflow: 68887/mentat
+  twitter: koraybalci
+
+# build settings
+
 exclude:
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE.md
-    - README.md
+  - LICENSE
+  - README.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  sourcemap: never
+
+feed:
+  path: atom.xml
+
+autopages:
+  enabled: false
+
+pagination:
+  enabled: true
+  per_page: 1
+  sort_reverse: true
+  permalink: /:num/
+  title: ":title &middot; Page :num"
