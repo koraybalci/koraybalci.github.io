@@ -1,9 +1,9 @@
 # site settings
 
 title: Koray Balci
-description: My personal web presence
-taglong: My personal web presence
-tagshort: home
+description: A curious developer
+taglong: A curious developer
+tagshort: / mentat
 url: https://koraybalci.com
 baseurl: ""
 permalink: pretty
